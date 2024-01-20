@@ -71,6 +71,19 @@ a:hover {
   text-decoration: none;
 }
 
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
 @media (min-width: 768px) {
   .link-a {
     font-size: 0.9rem;
@@ -1682,22 +1695,11 @@ a:hover {
 }
 
 .title-c {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 200;
   margin-left: -40px;
 }
 
-@media (min-width: 768px) {
-  .title-c {
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .title-c {
-    font-size: 2.5rem;
-  }
-}
 
 /*======================================
 //--//-->   AGENTS - CARD-D
